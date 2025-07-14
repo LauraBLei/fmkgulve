@@ -1,17 +1,277 @@
 {
   "HomePage": {
-    "Title": "Hej Forside"
+    "Title": "Forside",
+    "heroSection": {
+      "text": "Et flot gulv starter med den rigtige rådgivning og det gode håndværk",
+      "button": "Få uforpligtende tilbud"
+    }
   },
   "FloorPage": {
-    "Title": "Hej Gulv side"
-  },
-  "AboutPage": {
-    "Title": "Hej Om os side"
-  },
-  "ContactPage": {
-    "Title": "Hej Kontakt side"
+    "otherServices": "Læs om vores andre tilbud her:",
+    "services": [
+      {
+        "title": "Nyt gulv",
+        "subtitle": "Få professionel hjælp til lægning af nyt gulv",
+        "sectionOne": {
+          "title": "Få lagt lige det gulv du drømmer om",
+          "text": [
+            "Skal du have lagt nyt gulv, og drømmer du om et smukt sildebensgulv, et massivt plankegulv eller måske et slidstærkt linoleumsgulv? Hvis ja, så er vi de helt rigtige at kontakte. Hos FMK Gulve har vi i mange år, hjulpet med at lægge gulve for både private- og erhvervskunder i Borup, Roskilde, Herlev og omegn.",
+            "Uanset om der er tale om en fuld gulvrenovering, eller lægning af nyt gulv i et enkelt rum, så er vi hos FMK Gulve altid klar til at hjælpe."
+          ]
+        },
+        "sectionTwo": {
+          "title": "Et nyt gulv kræver præcision",
+          "text": [
+            "Hos FMK Gulve mener vi, at den høje faglighed blandt vores medarbejdere er forudsætningen for, at vi kan levere gulvbelægning i højeste kvalitet. Vi har mange års erfaring i branchen, og vi ved derfor at lægning af et nyt gulv kræver præcision og snilde.",
+            "Vi varetager alle opgaver - store som små - og vi har løsninger som passer til alt, lige fra den lille baggang til det større areal i stuen. Så hvis du skal have nyt gulv, så tøv ikke med at kontakte os."
+          ]
+        },
+        "sectionThree": {
+          "title": "Hvad koster et nyt gulv?",
+          "text": [
+            "Vores priser på nyt gulv varierer alt efter opgavens omfang, samt hvilket gulv du ønsker, at vi skal lægge for dig. Vi kommer dog meget gerne ud og besigtiger din opgave, hvorefter vi kan beregne et uforpligtende tilbud med en god pris til dig."
+          ]
+        }
+      },
+      {
+        "title": "Sildebensgulv",
+        "subtitle": "Få et smukt sildebensgulv",
+        "sectionOne": {
+          "title": "Lad FMK Gulve lægge dit nye gulv",
+          "text": [
+            "Drømmer du om et smukt sildebensgulv, og leder du i den forbindelse efter en professionel og erfaren gulvlægger, som kan varetage opgaven for dig? Hvis ja, så er du havnet det helt rigtige sted.",
+            "Hos FMK Gulve har vi mange års erfaring med gulvlægning, og vi har specialiseret os i at lægge smukke sildebensgulve og linoleumsgulve. Vi har gennem tiden lagt mange gulve for både privat- og erhvervskunder i Borup, Roskilde, Herlev og omegn. Så leder du efter et professionelt gulvfirma, som kan lægge dit nye sildebensgulv eller et nyt gulv, så kontakt os endelig."
+          ]
+        },
+        "sectionTwo": {
+          "title": "Vi værner om detaljerne",
+          "text": [
+            "På baggrund af vores mange års erfaring i gulvbranchen, besidder vi den faglige viden og ekspertise som kræves, for at kunne lægge et sildebensgulv.",
+            "Vi ved, at et sildebensgulv kræver korrekt håndtering og den rette efterbehandling, hvis det skal ligge perfekt og holde mange år ud i fremtiden. Hos FMK værner vi derfor selv om de mindste detaljer, hvilket er med til at sikre vores kunder et resultat, som de bliver fuldt tilfredse med.",
+            "Vi tilbyder desuden sildebensgulve i forskellige træsorter. Du kan vælge imellem egetræ eller en mørkere træsort. Med andre ord kan du altså få lige det sildebensgulv, som passer til dig og din bolig. Vi rådgiver dig naturligvis altid, så du får lige præcis den løsning, som passer til dine ønsker og behov."
+          ]
+        },
+        "sectionThree": {
+          "title": "Kontakt os og hør mere om dit nye sildebensgulv",
+          "text": [
+            "Hvis du ønsker at høre mere om, hvad vi hos FMK Gulve kan tilbyde, er du mere end velkommen til at kontakte os. Du er selvfølgelig heller ikke holde dig tilbage, hvis du ønsker at indhente et uforpligtende tilbud og en pris på din gulvopgave.",
+            "Vi ser frem til at lægge dit nye sildebensgulv!"
+          ]
+        }
+      },
+      {
+        "title": "Linoleumsgulv",
+        "subtitle": "Linoleumsgulv – det slidstærke og bæredygtige valg",
+        "sectionOne": {
+          "title": "Lad FMK Gulve lægge dit nye gulv",
+          "text": [
+            "Hvis du ønsker slidstærke gulve i et materiale, der både er let at vedligeholde og rengøre, og som også er bæredygtigt, så skal du vælge linoleum. Linoleum består udelukkende af naturmaterialer som. Linolie og harpiks, så du undgår at belaste klimaet. Samtidig er det et utroligt slidstærkt materiale, så du får et bæredygtigt resultat, der holder i længden.",
+            "Linoleumsgulv er perfekt til alt fra det lille københavnerkøkken til store skoler eller erhvervslokaler, hvor gulvene skal fremstå flotte og præsentable på trods af stor trafik og daglig slitage. Tilmed fås linoleumsgulv i alverdens farver, så du kan få lige det udtryk, du ønsker."
+          ]
+        },
+        "sectionTwo": {
+          "title": "Linoleumsgulv tager trappens udseende til nye højder",
+          "text": [
+            "Har du en slidt trappe, der trænger til en kærlig hånd, så er linoleum også et oplagt valg. Igen sikrer det organiske materiale, at du får et flot og holdbart resultat. Materialets mange farvemuligheder kan her også kombineres med eksempelvis en flot messingskinne, så trappen samlet set kommer til at fremstå som nyrenoveret. FMK Gulve vejleder dig gerne i alle mulighederne.",
+            "Når vi lægger dit nye linoleumsgulv, tilbyder vi naturligvis også nivellering, så du får et jævnt nyt gulv, som du kan få glæde af i rigtig mange år."
+          ]
+        },
+        "sectionThree": {
+          "title": "Kontakt os og få et uforpligtende tilbud",
+          "text": [
+            "Overvejer du nyt linoleumsgulv eller sildebensgulv i Borup, Roskilde eller Herlev? Vi kommer gerne ud og giver dig et uforpligtende tilbud. Ring til os og fortæl os mere om, hvad vi kan gøre for dig."
+          ]
+        }
+      },
+      {
+        "title": "Andre trægulve",
+        "subtitle": "",
+        "sectionOne": {
+          "title": "Flotte trægulve, der forkæler både øjet og fødderne",
+          "text": [
+            "Hos FMK Gulve arbejder vi med mange forskellige materialer, så hvad enten du drømmer om et smukt sildebensgulv, et massivt​plankegulv eller de slidstærke laminatgulve, så kan vi hjælpe dig.",
+            "Vi lægger også LVT-gulve, der giver dig det flotte træ-look, men som samtidig har alle plastikgulvets fordele – det har en høj slidstyrke, er vandafvisende, og så er det ikke mindst et billigt alternativ. Det er eksempelvis et oplagt valg i køkkener."
+          ]
+        },
+        "sectionTwo": {
+          "title": "Smukke sildebensgulve og andre parketmønstre",
+          "text": [
+            "FMK Gulve er dog særligt specialiserede i at lægge sildebensgulve og andre parketgulve i smukke mønstre, der giver din bolig sin helt egen stil. Der er mange muligheder, og du kan vælge lige netop det udtryk, der passer til dig og din bolig. Vi rådgiver dig altid, så du får den løsning, der passer bedst til dine ønsker og behov.",
+            "Når vi lægger dine nye trægulve, tilbyder vi også nivellering, og vi tilpasser naturligvis også altid lister og skinner, så du ikke behøver at gøre andet end at nyde det flotte resultat. Drømmer du om nye flotte trægulve i Storkøbenhavn, Roskilde eller Køge? Vi kommer meget gerne ud og giver dig et uforpligtende tilbud. Ring til os og fortæl os mere om, hvad vi kan gøre for dig."
+          ]
+        },
+        "sectionThree": {
+          "title": "Kontakt os og få et uforpligtende tilbud",
+          "text": [
+            "Overvejer du nye trægulve som laminat, LVT eller massivt plankegulv i Borup, Roskilde eller Herlev? Vi kommer gerne ud og giver dig et uforpligtende tilbud. Ring til os og fortæl os mere om, hvad vi kan gøre for dig."
+          ]
+        }
+      },
+      {
+        "title": "Anden Gulvbeklædning",
+        "subtitle": "",
+        "sectionOne": {
+          "title": "Gulvbeklædning til alle behov",
+          "text": [
+            "Søger du gulvbeklædning af de store kontorarealer, i vådrummet eller måske i det lille soveværelse? FMK Gulve har med sikkerhed en god løsning til dig."
+          ]
+        },
+        "sectionTwo": {
+          "title": "Vinyl på badeværelset",
+          "text": [
+            "I vådrum har du brug for en slidstærk gulvbeklædning, der kan holde til at blive våd igen og igen i mange år. Her er vinyl det oplagte valg, da det både er vandresistent, slidstærkt og ikke mindst nemt at rengøre."
+          ]
+        },
+        "sectionThree": {
+          "title": "Tæppefliser til bl.a. kontoret, soveværelset eller stuen",
+          "text": [
+            "På kontoret kan du med fordel vælge tæppefliser. Det giver ekstra isolering og en bedre akustik, hvilket ofte er en udfordring i kontorlandskaber. Tæppefliserne udskiftes nemt, hvis uheldet er ude, og der skulle komme en plet, som ikke kan komme af. Derfor får du også altid et par ekstra tæppefliser med, så du har en tæppeløsning, der kan holde i mange år frem. Hos FMK Gulve følger der som altid gode råd og vejledning med, så du får lige præcis den gulvbeklædning, der passer til dine ønsker og behov.",
+            "Mangler du gulvbeklædning til kontorarealer, vådrum eller soveværelset? Vi kommer meget gerne ud og giver dig et uforpligtende tilbud. Ring til os og fortæl os mere om, hvad vi kan gøre for dig."
+          ]
+        }
+      },
+      {
+        "title": "Undergulve",
+        "subtitle": "Få et stærkt og stabilt undergulv som base for dit nye gulv",
+        "sectionOne": {
+          "title": "Et solidt fundament for dit gulv",
+          "text": [
+            "Et godt gulv starter med et godt undergulv. Hos FMK Gulve har vi mange års erfaring med at etablere undergulve, der danner det perfekte fundament for både trægulve, vinyl, linoleum og meget mere.",
+            "Vi hjælper både private og erhverv i Borup, Roskilde, Herlev og omegn – og vi sørger altid for en grundig forberedelse, så det færdige resultat bliver holdbart og flot i mange år."
+          ]
+        },
+        "sectionTwo": {
+          "title": "Vi arbejder med alle typer undergulve",
+          "text": [
+            "Uanset om du har brug for spartling, støbning af flydemørtel eller opbygning med gulvspånplader, kan vi hjælpe dig. Vi sikrer altid korrekt nivellering, så dit gulv bliver helt plant og klar til den ønskede belægning.",
+            "Vi rådgiver dig naturligvis om, hvilken løsning der passer bedst til dit projekt – og vi anvender kun kvalitetsmaterialer, så du får et stærkt og stabilt undergulv, der matcher dine behov."
+          ]
+        },
+        "sectionThree": {
+          "title": "Få et tilbud på nyt undergulv",
+          "text": [
+            "Er du i gang med en renovering, eller skal du have lagt nyt gulv, så kontakt os for et uforpligtende tilbud på etablering af undergulv. Vi kommer gerne ud og vurderer dit projekt, så vi kan finde den bedste løsning til dig."
+          ]
+        }
+      },
+      {
+        "title": "Trappeopgang",
+        "subtitle": "Forny din trappeopgang med professionel gulvbelægning",
+        "sectionOne": {
+          "title": "Giv din trappeopgang et løft",
+          "text": [
+            "En flot og funktionel trappeopgang skaber et godt førstehåndsindtryk – både i boligejendomme og erhvervsejendomme. Hos FMK Gulve hjælper vi med at renovere og belægge trappeopgange, så de bliver både pæne og slidstærke.",
+            "Vi arbejder i hele Storkøbenhavn, Roskilde og omegn, og vi har stor erfaring med at lægge gulvbelægning på trapper, reposer og gange i etager."
+          ]
+        },
+        "sectionTwo": {
+          "title": "Slidstærke og sikre løsninger",
+          "text": [
+            "Trapper kræver særligt holdbare materialer, som samtidig er skridsikre og nemme at vedligeholde. Vi tilbyder løsninger i fx linoleum, vinyl og tæppefliser, som er ideelle til trappeopgange med høj trafik.",
+            "Du kan vælge mellem mange farver og kombinationer – og vi tilføjer naturligvis kantlister og skridsikring efter behov, så både æstetik og sikkerhed er i top."
+          ]
+        },
+        "sectionThree": {
+          "title": "Kontakt os for trappeløsninger",
+          "text": [
+            "Har du en trappeopgang, der trænger til en opfriskning? Vi rådgiver dig gerne om materialevalg og vedligehold – og vi giver naturligvis et uforpligtende tilbud på netop din opgang.",
+            "Ring til os og lad os tage en snak om, hvordan vi kan forny din trappeopgang."
+          ]
+        }
+      }
+    ]
   },
 
+  "AboutPage": {
+    "Title": "Om FMK Gulve",
+    "textOne": "FMK Gulve blev startet i 2018 af Frederik Maaløe med et ønske om at levere kvalitetsgulve, som både han og kunderne kunne være stolte af. Og som Frederik Maaløe selv formulerer det, så var der ikke noget firma i dag, hvis de ikke hver eneste dag levede op til det.",
+    "textTwo": "For FMK Gulve er det også vigtigt, at kunderne får deres kvalitetsgulve til den rette pris og inden for en fornuftig tidsramme. Det gælder også, hvis du vælger FMK Gulve til at stå for hele din entreprise. Her bruger vi kun samarbejdspartnere, som vi har tilllid til og sikrer, at dit byggeprojekt kommer hurtigt og godt i mål. Kvalitet, fornuftig pris og udført til tiden er nøgleord for os.",
+    "textThree": "FMK Gulve løser opgaver på hele Sjælland. Så har du et gulv, der skal lægges, eller en samlet entreprise i fx Køge, Roskilde eller Storkøbenhavn, så ring og fortæl, hvordan vi bedst hjælper dig.​"
+  },
+  "ContactPage": {
+    "Title": "Kontakt FMK Gulve",
+    "interestedSection": {
+      "title": "Er du interesseret?",
+      "textOne": "Vi glæder os til at høre fra dig! Vi kan træffes alle ugens hverdage, enten på telefon eller e-mail. Du er mere end velkommen til at tage kontakt og få en helt uforpligtende snak omkring, hvad vi kan hjælpe dig med. ",
+      "textTwo": "Skulle du have akutte spørgsmål eller problemer, så henvend dig på telefonen, vi er klar til at hjælpe. "
+    },
+    "contact": "KontaktInformationer",
+    "openingHours": {
+      "title": "Telefon - og åbningstider",
+      "businessHours": {
+        "title": "Åbningstider:",
+        "schedule": "Mandag - fredag: 08.00 - 16.00",
+        "disclaimer": "Der tages forbehold for eventuelle ændringer."
+      },
+      "phoneHours": {
+        "title": "Telefontider:",
+        "schedule": "Mandag - fredag: 07.00 - 16.30",
+        "afterHours": "Henvendelser uden for åbningstider bedes sendes til kontakt@fmkgulve.dk"
+      }
+    }
+  },
+  "ContactComponent": {
+    "callText": "Ring og få et godt tilbud",
+    "callSubText": "Fortæl os om din opgave, så giver vi et uforpligtende tilbud hurtigt muligt",
+    "formularText": "... eller  udfyld formularen",
+    "formularSubText": "Så vender vi tilbage med et uforpligtende tilbud indenfor 1-3 hverdage",
+    "formPlaceholder": {
+      "name": "Hvad er dit navn?",
+      "phone": "Hvad er dit telefon nummer?",
+      "email": "Hvad er din E-mail?",
+      "text": "Hvad kan vi gøre for dig?",
+      "submit": "Send besked"
+    }
+  },
+  "Header": {
+    "nav": {
+      "home": "Forside",
+      "services": "Tjenester",
+      "about": "Om os",
+      "contact": "Kontakt"
+    }
+  },
+  "ValueProps": [
+    {
+      "title": "Fleksibel gulvlægger",
+      "text": "Vi lægger dit gulv, som du ønsker det - når du ønsker det. Også når det haster"
+    },
+    {
+      "title": "Vi holder det vi lover",
+      "text": "Du kan trygt stole på at din opgave bliver løst til topkarakter og til tiden"
+    },
+    {
+      "title": "Kvalitetsbevidst service",
+      "text": "Vi leverer altid et solidt stykke arbejde af høj kvalitet. Det giver tilfredse og glade kunder"
+    }
+  ],
+  "Services": [
+    "Nyt gulv",
+    "Sildebensgulv",
+    "Lineoleumsgulv",
+    "Andre Trægulve",
+    "Anden Gulvbekædning",
+    "Undergulve",
+    "Trappeopgang"
+  ],
+  "ContactInfo": {
+    "phone": "+45 30 13 16 31",
+    "email": "kontakt@fmkgulve.dk",
+    "company": "FMK Gulve",
+    "adress": "Mørkhøj Bygade 32, 2860 Søborg",
+    "cvr": "CVR-nummer: 39399199"
+  },
+  "Footer": {
+    "contact": "Kontakt os",
+
+    "services": "Tjenester",
+    "about": {
+      "title": "Om os",
+      "text": "FMK Gulve blev startet i 2018 af Frederik Maaløe med et ønske om at levere kvalitetsgulve, som både han og kunderne kunne være stolte af.",
+      "button": "Læs mere"
+    },
+    "copyright": "2025 FMK Gulve - Alle rettigheder forbeholdes"
+  },
   "LocaleSwitcher": {
     "label": "Vælg sprog",
     "locale": "{locale, select, da {Dansk} en {English} other {Unknown}}"

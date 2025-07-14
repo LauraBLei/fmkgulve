@@ -1,19 +1,277 @@
 {
   "HomePage": {
-    "Title": "Welcome to Home Page"
+    "Title": "Home",
+    "heroSection": {
+      "text": "A beautiful floor starts with the right advice and good craftsmanship",
+      "button": "Get a free quote"
+    }
   },
   "FloorPage": {
-    "Title": "Our Flooring Solutions"
+    "otherServices": "Read about our other services here:",
+    "services": [
+      {
+        "title": "New flooring",
+        "subtitle": "Get professional help with installing new flooring",
+        "sectionOne": {
+          "title": "Get the floor of your dreams installed",
+          "text": [
+            "Do you need new flooring installed, and do you dream of a beautiful herringbone floor, a solid plank floor, or perhaps a durable linoleum floor? If yes, then we are the right people to contact. At FMK Gulve, we have for many years helped install floors for both private and commercial customers in Borup, Roskilde, Herlev and surrounding areas.",
+            "Whether it's a complete floor renovation or laying new flooring in a single room, we at FMK Gulve are always ready to help."
+          ]
+        },
+        "sectionTwo": {
+          "title": "A new floor requires precision",
+          "text": [
+            "At FMK Gulve, we believe that the high level of expertise among our employees is the prerequisite for us to deliver flooring of the highest quality. We have many years of experience in the industry, and we therefore know that laying a new floor requires precision and skill.",
+            "We handle all tasks - large and small - and we have solutions that fit everything from the small hallway to the larger area in the living room. So if you need new flooring, don't hesitate to contact us."
+          ]
+        },
+        "sectionThree": {
+          "title": "What does a new floor cost?",
+          "text": [
+            "Our prices for new flooring vary depending on the scope of the task and which floor you want us to install for you. However, we are very happy to come out and inspect your task, after which we can calculate a non-binding quote with a good price for you."
+          ]
+        }
+      },
+      {
+        "title": "Herringbone flooring",
+        "subtitle": "Get a beautiful herringbone floor",
+        "sectionOne": {
+          "title": "Let FMK Gulve install your new floor",
+          "text": [
+            "Do you dream of a beautiful herringbone floor, and are you looking for a professional and experienced floor installer who can handle the task for you? If yes, then you have come to the right place.",
+            "At FMK Gulve, we have many years of experience with floor installation, and we have specialized in laying beautiful herringbone floors and linoleum floors. We have installed many floors for both private and commercial customers in Borup, Roskilde, Herlev and surrounding areas over time. So if you're looking for a professional flooring company that can install your new herringbone floor or a new floor, please contact us."
+          ]
+        },
+        "sectionTwo": {
+          "title": "We care about the details",
+          "text": [
+            "Based on our many years of experience in the flooring industry, we possess the professional knowledge and expertise required to install a herringbone floor.",
+            "We know that a herringbone floor requires correct handling and the right post-treatment if it is to lie perfectly and last many years into the future. At FMK, we therefore care about even the smallest details, which helps ensure our customers get a result they are completely satisfied with.",
+            "We also offer herringbone floors in different wood types. You can choose between oak or a darker wood type. In other words, you can get exactly the herringbone floor that suits you and your home. We naturally always advise you, so you get exactly the solution that fits your wishes and needs."
+          ]
+        },
+        "sectionThree": {
+          "title": "Contact us and learn more about your new herringbone floor",
+          "text": [
+            "If you want to learn more about what we at FMK Gulve can offer, you are more than welcome to contact us. You should certainly not hold back if you want to obtain a non-binding quote and a price for your flooring task.",
+            "We look forward to installing your new herringbone floor!"
+          ]
+        }
+      },
+      {
+        "title": "Linoleum flooring",
+        "subtitle": "Linoleum flooring – the durable and sustainable choice",
+        "sectionOne": {
+          "title": "Let FMK Gulve install your new floor",
+          "text": [
+            "If you want durable floors in a material that is both easy to maintain and clean, and which is also sustainable, then you should choose linoleum. Linoleum consists exclusively of natural materials such as linseed oil and resin, so you avoid burdening the climate. At the same time, it is an incredibly durable material, so you get a sustainable result that lasts.",
+            "Linoleum flooring is perfect for everything from the small Copenhagen kitchen to large schools or commercial premises, where the floors must look beautiful and presentable despite high traffic and daily wear. Moreover, linoleum flooring is available in all kinds of colors, so you can get exactly the expression you want."
+          ]
+        },
+        "sectionTwo": {
+          "title": "Linoleum flooring takes the staircase's appearance to new heights",
+          "text": [
+            "If you have a worn staircase that needs a caring hand, then linoleum is also an obvious choice. Again, the organic material ensures that you get a beautiful and durable result. The material's many color possibilities can also be combined with, for example, a beautiful brass rail, so the staircase overall appears newly renovated. FMK Gulve is happy to guide you in all the possibilities.",
+            "When we install your new linoleum floor, we naturally also offer leveling, so you get an even new floor that you can enjoy for many years."
+          ]
+        },
+        "sectionThree": {
+          "title": "Contact us and get a non-binding quote",
+          "text": [
+            "Are you considering new linoleum flooring or herringbone flooring in Borup, Roskilde or Herlev? We are happy to come out and give you a non-binding quote. Call us and tell us more about what we can do for you."
+          ]
+        }
+      },
+      {
+        "title": "Other wood floors",
+        "subtitle": "",
+        "sectionOne": {
+          "title": "Beautiful wood floors that pamper both the eye and feet",
+          "text": [
+            "At FMK Gulve, we work with many different materials, so whether you dream of a beautiful herringbone floor, a solid plank floor or durable laminate floors, we can help you.",
+            "We also install LVT floors, which give you the beautiful wood look, but which at the same time have all the advantages of plastic flooring – it has high durability, is water-repellent, and not least it is a cheap alternative. It is, for example, an obvious choice in kitchens."
+          ]
+        },
+        "sectionTwo": {
+          "title": "Beautiful herringbone floors and other parquet patterns",
+          "text": [
+            "FMK Gulve is particularly specialized in laying herringbone floors and other parquet floors in beautiful patterns that give your home its very own style. There are many possibilities, and you can choose exactly the expression that suits you and your home. We always advise you, so you get the solution that best fits your wishes and needs.",
+            "When we install your new wood floors, we also offer leveling, and we naturally always adjust moldings and rails, so you don't need to do anything other than enjoy the beautiful result. Do you dream of new beautiful wood floors in Greater Copenhagen, Roskilde or Køge? We are very happy to come out and give you a non-binding quote. Call us and tell us more about what we can do for you."
+          ]
+        },
+        "sectionThree": {
+          "title": "Contact us and get a non-binding quote",
+          "text": [
+            "Are you considering new wood floors such as laminate, LVT or solid plank flooring in Borup, Roskilde or Herlev? We are happy to come out and give you a non-binding quote. Call us and tell us more about what we can do for you."
+          ]
+        }
+      },
+      {
+        "title": "Other floor coverings",
+        "subtitle": "",
+        "sectionOne": {
+          "title": "Floor coverings for all needs",
+          "text": [
+            "Are you looking for floor coverings for large office areas, in the wet room or perhaps in the small bedroom? FMK Gulve certainly has a good solution for you."
+          ]
+        },
+        "sectionTwo": {
+          "title": "Vinyl in the bathroom",
+          "text": [
+            "In wet rooms, you need a durable floor covering that can withstand being wet again and again for many years. Here, vinyl is the obvious choice, as it is water-resistant, durable and not least easy to clean."
+          ]
+        },
+        "sectionThree": {
+          "title": "Carpet tiles for the office, bedroom or living room",
+          "text": [
+            "In the office, you can advantageously choose carpet tiles. It provides extra insulation and better acoustics, which is often a challenge in office landscapes. The carpet tiles are easily replaced if an accident happens and there should be a stain that cannot be removed. Therefore, you always get a few extra carpet tiles, so you have a carpet solution that can last for many years to come. At FMK Gulve, good advice and guidance always come along, so you get exactly the floor covering that suits your wishes and needs.",
+            "Do you need floor coverings for office areas, wet rooms or the bedroom? We are very happy to come out and give you a non-binding quote. Call us and tell us more about what we can do for you."
+          ]
+        }
+      },
+      {
+        "title": "Subfloors",
+        "subtitle": "Get a strong and stable subfloor as the base for your new floor",
+        "sectionOne": {
+          "title": "A solid foundation for your floor",
+          "text": [
+            "A good floor starts with a good subfloor. At FMK Gulve, we have many years of experience in establishing subfloors that form the perfect foundation for wood floors, vinyl, linoleum and much more.",
+            "We help both private individuals and businesses in Borup, Roskilde, Herlev and surrounding areas – and we always ensure thorough preparation, so the finished result becomes durable and beautiful for many years."
+          ]
+        },
+        "sectionTwo": {
+          "title": "We work with all types of subfloors",
+          "text": [
+            "Whether you need filling, pouring of screed or construction with floor chipboards, we can help you. We always ensure correct leveling, so your floor becomes completely flat and ready for the desired covering.",
+            "We naturally advise you on which solution best suits your project – and we only use quality materials, so you get a strong and stable subfloor that matches your needs."
+          ]
+        },
+        "sectionThree": {
+          "title": "Get a quote for a new subfloor",
+          "text": [
+            "Are you in the middle of a renovation, or do you need new flooring installed, then contact us for a non-binding quote on subfloor installation. We are happy to come out and assess your project, so we can find the best solution for you."
+          ]
+        }
+      },
+      {
+        "title": "Staircases",
+        "subtitle": "Renew your staircase with professional floor covering",
+        "sectionOne": {
+          "title": "Give your staircase a lift",
+          "text": [
+            "A beautiful and functional staircase creates a good first impression – both in residential and commercial buildings. At FMK Gulve, we help renovate and cover staircases, so they become both beautiful and durable.",
+            "We work throughout Greater Copenhagen, Roskilde and surrounding areas, and we have great experience in laying floor coverings on stairs, landings and hallways in apartments."
+          ]
+        },
+        "sectionTwo": {
+          "title": "Durable and safe solutions",
+          "text": [
+            "Stairs require particularly durable materials, which are also non-slip and easy to maintain. We offer solutions in e.g. linoleum, vinyl and carpet tiles, which are ideal for staircases with high traffic.",
+            "You can choose between many colors and combinations – and we naturally add edge strips and non-slip features as needed, so both aesthetics and safety are top-notch."
+          ]
+        },
+        "sectionThree": {
+          "title": "Contact us for staircase solutions",
+          "text": [
+            "Do you have a staircase that needs refreshing? We are happy to advise you on material selection and maintenance – and we naturally give a non-binding quote for your specific staircase.",
+            "Call us and let's have a chat about how we can renew your staircase."
+          ]
+        }
+      }
+    ]
   },
   "AboutPage": {
-    "Title": "About FMK Gulve"
+    "Title": "About FMK Gulve",
+    "textOne": "FMK Gulve was started in 2018 by Frederik Maaløe with a desire to deliver quality floors that both he and the customers could be proud of. And as Frederik Maaløe himself puts it, there would be no company today if they didn't live up to that every single day.",
+    "textTwo": "For FMK Gulve, it is also important that customers get their quality floors at the right price and within a reasonable timeframe. This also applies if you choose FMK Gulve to handle your entire contract. Here we only use collaboration partners that we trust and ensure that your construction project reaches completion quickly and successfully. Quality, reasonable price and completed on time are key words for us.",
+    "textThree": "FMK Gulve solves tasks throughout Zealand. So if you have a floor that needs to be installed, or a complete contract in e.g. Køge, Roskilde or Greater Copenhagen, then call and tell us how we can best help you."
   },
   "ContactPage": {
-    "Title": "Contact Us"
+    "Title": "Contact FMK Gulve",
+    "interestedSection": {
+      "title": "Are you interested?",
+      "textOne": "We look forward to hearing from you! We can be reached all weekdays, either by phone or email. You are more than welcome to get in touch and have a completely non-binding conversation about what we can help you with.",
+      "textTwo": "Should you have urgent questions or problems, please contact us by phone, we are ready to help."
+    },
+    "contact": "Contact Information",
+    "openingHours": {
+      "title": "Phone and opening hours",
+      "businessHours": {
+        "title": "Opening hours:",
+        "schedule": "Monday - Friday: 08.00 - 16.00",
+        "disclaimer": "Subject to any changes."
+      },
+      "phoneHours": {
+        "title": "Phone hours:",
+        "schedule": "Monday - Friday: 07.00 - 16.30",
+        "afterHours": "Inquiries outside opening hours should be sent to kontakt@fmkgulve.dk"
+      }
+    }
   },
-
+  "ContactComponent": {
+    "callText": "Call and get a good quote",
+    "callSubText": "Tell us about your task, and we'll give you a non-binding quote as quickly as possible",
+    "formularText": "... or fill out the form",
+    "formularSubText": "Then we'll get back to you with a non-binding quote within 1-3 business days",
+    "formPlaceholder": {
+      "name": "What is your name?",
+      "phone": "What is your phone number?",
+      "email": "What is your email?",
+      "text": "What can we do for you?",
+      "submit": "Send message"
+    }
+  },
+  "Header": {
+    "nav": {
+      "home": "Home",
+      "services": "Services",
+      "about": "About",
+      "contact": "Contact"
+    }
+  },
+  "ValueProps": [
+    {
+      "title": "Flexible floor installer",
+      "text": "We install your floor as you want it - when you want it. Even when it's urgent"
+    },
+    {
+      "title": "We keep our promises",
+      "text": "You can safely trust that your task will be solved to perfection and on time"
+    },
+    {
+      "title": "Quality-conscious service",
+      "text": "We always deliver solid work of high quality. This creates satisfied and happy customers"
+    }
+  ],
+  "Services": [
+    "New flooring",
+    "Herringbone flooring",
+    "Linoleum flooring",
+    "Other wood floors",
+    "Other floor coverings",
+    "Subfloors",
+    "Staircases"
+  ],
+  "ContactInfo": {
+    "phone": "+45 30 13 16 31",
+    "email": "kontakt@fmkgulve.dk",
+    "company": "FMK Gulve",
+    "address": "Mørkhøj Bygade 32, 2860 Søborg",
+    "cvr": "CVR number: 39399199"
+  },
+  "Footer": {
+    "contact": "Contact us",
+    "services": "Services",
+    "about": {
+      "title": "About us",
+      "text": "FMK Gulve was started in 2018 by Frederik Maaløe with a desire to deliver quality floors that both he and the customers could be proud of.",
+      "button": "Read more"
+    },
+    "copyright": "2025 FMK Gulve - All rights reserved"
+  },
   "LocaleSwitcher": {
     "label": "Select language",
-    "locale": "{locale, select, da {Dansk} en {English} other {Unknown}}"
+    "locale": "{locale, select, da {Danish} en {English} other {Unknown}}"
   }
 }
