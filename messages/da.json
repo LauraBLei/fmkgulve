@@ -10,5 +10,10 @@
   },
   "ContactPage": {
     "Title": "Hej Kontakt side"
+  },
+
+  "LocaleSwitcher": {
+    "label": "Vælg sprog",
+    "locale": "{locale, select, da {Dansk} en {English} other {Unknown}}"
   }
 }

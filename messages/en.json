@@ -10,5 +10,10 @@
   },
   "ContactPage": {
     "Title": "Contact Us"
+  },
+
+  "LocaleSwitcher": {
+    "label": "Select language",
+    "locale": "{locale, select, da {Dansk} en {English} other {Unknown}}"
   }
 }
