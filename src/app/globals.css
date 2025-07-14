@@ -4,3 +4,7 @@
   --font-primary: "Lato", "ui-sans-serif", "system-ui";
   --font-secondary: "Inter", "ui-sans-serif", "system-ui";
 }
+
+.pageContainer {
+  @apply max-w-[1400px] w-full;
+}
