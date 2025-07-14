@@ -1,0 +1,14 @@
+{
+  "HomePage": {
+    "Title": "Welcome to Home Page"
+  },
+  "FloorPage": {
+    "Title": "Our Flooring Solutions"
+  },
+  "AboutPage": {
+    "Title": "About FMK Gulve"
+  },
+  "ContactPage": {
+    "Title": "Contact Us"
+  }
+}

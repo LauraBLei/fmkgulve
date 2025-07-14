@@ -1,7 +1,10 @@
+import { useTranslations } from "next-intl";
+
 export const HomePage = () => {
+  const t = useTranslations("HomePage");
   return (
     <div>
-      <h1>Home Page</h1>
+      <h1>{t("Title")}</h1>
     </div>
   );
 };

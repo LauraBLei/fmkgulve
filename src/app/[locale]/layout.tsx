@@ -1,8 +1,11 @@
 import type { Metadata } from "next";
-import "./globals.css";
-import "./fonts.css";
+import "../globals.css";
+import "../fonts.css";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
+import { hasLocale, NextIntlClientProvider } from "next-intl";
+import { routing } from "@/i18n/routing";
+import { notFound } from "next/navigation";
 
 export const metadata: Metadata = {
   title: "FMKGulve",
@@ -18,17 +21,25 @@ export const metadata: Metadata = {
   manifest: "/site.webmanifest",
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
-}: Readonly<{
+  params,
+}: {
   children: React.ReactNode;
-}>) {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  if (!hasLocale(routing.locales, locale)) {
+    notFound();
+  }
   return (
-    <html lang="dk">
+    <html lang="da">
       <body className="min-h-screen flex flex-col items-center">
-        <Header />
-        <main className="flex-1 PageContainer">{children}</main>
-        <Footer />
+        <NextIntlClientProvider>
+          <Header />
+          <main className="flex-1 PageContainer">{children}</main>
+          <Footer />
+        </NextIntlClientProvider>
       </body>
     </html>
   );

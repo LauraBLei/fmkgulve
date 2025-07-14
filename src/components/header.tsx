@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
+import LocaleSwitcher from "./LocaleSwitcher";
 
 const NavLink = ({ href, text }: { href: string; text: string }) => {
   return (
@@ -36,6 +37,7 @@ export const Header = () => {
             <NavLink href="/floor" text="Gulve" />
             <NavLink href="/about" text="Om os" />
             <NavLink href="/contact" text="Kontakt" />
+            <LocaleSwitcher />
           </nav>
         </div>
       </div>

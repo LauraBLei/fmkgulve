@@ -1,0 +1,14 @@
+{
+  "HomePage": {
+    "Title": "Hej Forside"
+  },
+  "FloorPage": {
+    "Title": "Hej Gulv side"
+  },
+  "AboutPage": {
+    "Title": "Hej Om os side"
+  },
+  "ContactPage": {
+    "Title": "Hej Kontakt side"
+  }
+}
