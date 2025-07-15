@@ -9,7 +9,7 @@ export const NavLink = ({ href, text }: Props) => {
   return (
     <Link
       href={href}
-      className="text-gray-700 hover:text-orange-500 px-3 py-2 text-sm font-medium transition-colors"
+      className="lg:text-xl hover:text-brand-blue transition-colors"
     >
       {text}
     </Link>
