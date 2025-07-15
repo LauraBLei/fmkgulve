@@ -28,7 +28,7 @@ export const DesktopHeader = () => {
           <ServiceDropdown />
           <NavLink href="/about" text={t("Header.nav.about")} />
           <NavLink href="/contact" text={t("Header.nav.contact")} />
-          <LocaleSwitcher label={t("LocalesSwitcher.label")} />
+          <LocaleSwitcher label={t("LocaleSwitcher.label")} />
         </nav>
       </div>
     </div>
