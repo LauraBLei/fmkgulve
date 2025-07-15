@@ -6,7 +6,7 @@ export const ContactPage = () => {
   const t = useTranslations("ContactPage");
   const tInfo = useTranslations("ContactInfo");
   return (
-    <div className="lg:flex lg:flex-row">
+    <div className="lg:flex lg:flex-row font-secondary">
       <Image
         src={"/profile/contactHero.webp"}
         alt="Worker fixing floor"
@@ -24,7 +24,7 @@ export const ContactPage = () => {
           <p>{t("interestedSection.textTwo")}</p>
         </div>
         <hr className="border-1 border-brand-blue" />
-        <div className="flex flex-col my-10 justify-between lg:flex-row">
+        <div className="flex flex-col my-10 justify-between gap-6 lg:flex-row">
           <div>
             <h2 className="contactHeadings">{t("openingHours.title")}</h2>
             <div className="flex flex-col gap-1 py-2">
