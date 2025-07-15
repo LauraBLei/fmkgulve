@@ -3,7 +3,12 @@ import Link from "next/link";
 import Image from "next/image";
 import LocaleSwitcher from "./LocaleSwitcher";
 
-const NavLink = ({ href, text }: { href: string; text: string }) => {
+interface Props {
+  href: string;
+  text: string;
+}
+
+const NavLink = ({ href, text }: Props) => {
   return (
     <Link
       href={href}
@@ -18,7 +23,6 @@ export const Header = () => {
     <header className="bg-white shadow-sm border-b pageContainer">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          {/* Logo */}
           <Link href="/" className="flex items-center">
             <Image
               src="/logo/logo.png"
@@ -31,7 +35,6 @@ export const Header = () => {
             />
           </Link>
 
-          {/* Navigation */}
           <nav className="flex space-x-8">
             <NavLink href="/" text="Hjem" />
             <NavLink href="/floor" text="Gulve" />
