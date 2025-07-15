@@ -1,24 +1,14 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
-import LocaleSwitcher from "./LocaleSwitcher";
 
-interface Props {
-  href: string;
-  text: string;
-}
+import { NavLink } from "./navLink";
+import LocaleSwitcher from "../LocaleSwitcher";
+import { useTranslations } from "next-intl";
 
-const NavLink = ({ href, text }: Props) => {
-  return (
-    <Link
-      href={href}
-      className="text-gray-700 hover:text-orange-500 px-3 py-2 text-sm font-medium transition-colors"
-    >
-      {text}
-    </Link>
-  );
-};
 export const Header = () => {
+  const t = useTranslations("LocaleSwitcher");
+
   return (
     <header className="bg-white shadow-sm border-b pageContainer">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -35,12 +25,12 @@ export const Header = () => {
             />
           </Link>
 
-          <nav className="flex space-x-8">
+          <nav className="flex space-x-8 items-center">
             <NavLink href="/" text="Hjem" />
             <NavLink href="/floor" text="Gulve" />
             <NavLink href="/about" text="Om os" />
             <NavLink href="/contact" text="Kontakt" />
-            <LocaleSwitcher />
+            <LocaleSwitcher label={t("label")} />
           </nav>
         </div>
       </div>
