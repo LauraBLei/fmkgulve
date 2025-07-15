@@ -1,4 +1,5 @@
 @import "tailwindcss";
+
 @theme {
   --color-brand-blue: #1c75bc;
   --font-primary: "Lato", "ui-sans-serif", "system-ui";
@@ -11,4 +12,12 @@
 
 .navText {
   @apply w-full text-left font-light text-white lg:text-black py-3 px-4 text-base lg:hover:text-brand-blue md:text-lg lg:text-xl hover:bg-white/20 lg:hover:bg-none transition-colors lg:font-medium font-primary;
+}
+
+.contactHeadings {
+  @apply text-brand-blue font-bold text-lg font-primary;
+}
+
+.contactInfo {
+  @apply flex gap-4 items-center text-brand-blue font-semibold;
 }
