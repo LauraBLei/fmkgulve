@@ -8,3 +8,7 @@
 .pageContainer {
   @apply max-w-[1400px] w-full;
 }
+
+.navText {
+  @apply w-full text-left font-light text-white lg:text-black py-3 px-4 text-base lg:hover:text-brand-blue md:text-lg lg:text-xl hover:bg-white/20 lg:hover:bg-none transition-colors lg:font-medium font-primary;
+}
