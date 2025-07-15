@@ -10,7 +10,7 @@ export default function LocaleSwitcher() {
     <LocaleSwitcherSelect defaultValue={locale} label={t("label")}>
       {routing.locales.map((cur) => (
         <option key={cur} value={cur} className="flex">
-          <span>{t("locale", { locale: cur })}</span>
+          {t("locale", { locale: cur })}
         </option>
       ))}
     </LocaleSwitcherSelect>
