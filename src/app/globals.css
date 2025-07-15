@@ -33,3 +33,11 @@
 .contactIconTitle {
   @apply text-brand-blue font-medium mb-1;
 }
+
+.contactInputMobile {
+  @apply border-1 border-gray-400 py-2 px-3 w-full focus:border-brand-blue outline-none;
+}
+
+.contactInputDesktop {
+  @apply bg-[#EEEEEE] border-1 border-[#E4E3E3] py-2 px-3 w-full rounded-xl focus:border-brand-blue outline-none;
+}
