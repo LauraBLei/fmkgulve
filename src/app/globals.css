@@ -21,3 +21,15 @@
 .contactInfo {
   @apply flex gap-4 items-center text-brand-blue font-semibold;
 }
+
+.contactFormIcons {
+  @apply bg-brand-blue w-15 h-15 rounded-full flex items-center justify-center text-white;
+}
+
+.contactIconContainer {
+  @apply flex items-center gap-6 my-6 text-sm;
+}
+
+.contactIconTitle {
+  @apply text-brand-blue font-medium mb-1;
+}
