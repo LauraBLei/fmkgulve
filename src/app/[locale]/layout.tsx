@@ -2,10 +2,11 @@ import type { Metadata } from "next";
 import "../globals.css";
 import "../fonts.css";
 import { Header } from "@/components/header/header";
-import { Footer } from "@/components/footer";
+
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { routing } from "@/i18n/routing";
 import { notFound } from "next/navigation";
+import { Footer } from "@/components/footer/footer";
 
 export const metadata: Metadata = {
   title: "FMKGulve",
