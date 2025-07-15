@@ -210,8 +210,13 @@
     }
   },
   "ContactComponent": {
+    "title": "Contact us",
+    "callTitle": "Call us",
+    "emailTitle": "Send message",
+    "locationTitle": "Location",
     "callText": "Call and get a good quote",
     "callSubText": "Tell us about your task, and we'll give you a non-binding quote as quickly as possible",
+    "locationText": "Or send a message by filling out the form",
     "formularText": "... or fill out the form",
     "formularSubText": "Then we'll get back to you with a non-binding quote within 1-3 business days",
     "formPlaceholder": {
