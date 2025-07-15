@@ -47,7 +47,7 @@ export const ServiceDropdown = () => {
     <div className="relative" ref={dropdownRef}>
       <button
         onClick={toggleDropdown}
-        className="flex items-center text-xl font-primary font-medium hover:text-brand-blue cursor-pointer transition-colors"
+        className="flex items-center cursor-pointer w-full text-left py-3 px-4 navText"
       >
         {t("Header.nav.services")}
         <svg
@@ -68,12 +68,12 @@ export const ServiceDropdown = () => {
       </button>
 
       {isOpen && (
-        <div className="absolute top-full left-0 mt-1 w-56 bg-white border border-gray-200 rounded-md shadow-lg z-50">
+        <div className="lg:absolute text-white lg:text-black top-full left-0 mt-1 w-56 lg:bg-white lg:border lg:border-gray-200 rounded-md lg:shadow-lg z-50">
           {services.map((service, index) => (
             <Link
               key={index}
               href={locale === "da" ? service.href : `/en${service.href}`}
-              className="block px-4 py-2 text-sm text-gray-700 hover:bg-brand-blue/20 first:rounded-t-md last:rounded-b-md transition-colors"
+              className="block px-4 py-2 text-sm  hover:bg-white/20 lg:hover:bg-brand-blue/20 first:rounded-t-md last:rounded-b-md transition-colors"
               onClick={() => setIsOpen(false)} // Close when clicking a link
             >
               {t(service.key)}

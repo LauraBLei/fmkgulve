@@ -50,9 +50,9 @@ export default function LocaleSwitcher({ label }: Props) {
           key={locale.code}
           onClick={() => changeLocale(locale.code)}
           disabled={isPending}
-          className={`rounded-full overflow-hidden w-[30px] h-[30px] flex items-center justify-center transition-all duration-200 ${
+          className={`rounded-full cursor-pointer overflow-hidden w-[30px] h-[30px] flex items-center justify-center transition-all duration-200 ${
             currentLocale === locale.code
-              ? "ring-2 ring-black opacity-100"
+              ? "ring-2 ring-white lg:ring-black opacity-100"
               : "opacity-60 hover:opacity-100"
           }`}
         >
