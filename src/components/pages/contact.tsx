@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import { Phone, Mail } from "lucide-react";
 import Image from "next/image";
+import { ContactForm } from "../contact";
 
 export const ContactPage = () => {
   const t = useTranslations("ContactPage");
@@ -77,6 +78,7 @@ export const ContactPage = () => {
         height={601}
         className="hidden lg:block w-full h-auto max-h-[601px] object-cover"
       />
+      <ContactForm />
     </div>
   );
 };
