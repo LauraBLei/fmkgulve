@@ -14,6 +14,14 @@
   @apply w-full text-left font-light text-white lg:text-black py-3 px-4 text-base lg:hover:text-brand-blue md:text-lg lg:text-xl hover:bg-white/20 lg:hover:bg-none transition-colors lg:font-medium font-primary;
 }
 
+
+.footerHeadline {
+  @apply text-center py-1 border-b-1 border-white w-full text-base md:text-lg font-medium font-primary;
+}
+
+.hoverEffect {
+  @apply scale-95 hover:scale-100 transition duration-300 ease-in-out transform;
+  
 .contactHeadings {
   @apply text-brand-blue font-bold text-lg font-primary;
 }
@@ -40,4 +48,3 @@
 
 .contactInputDesktop {
   @apply bg-[#EEEEEE] border-1 border-[#E4E3E3] py-2 px-3 w-full rounded-xl focus:border-brand-blue outline-none;
-}
