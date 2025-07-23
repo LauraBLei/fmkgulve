@@ -9,7 +9,7 @@ export const ContactFooter = () => {
       <h3 className="footerHeadline">{t("Footer.contact")}</h3>
       <div>
         <p>{t("ContactInfo.company")}</p>
-        <p>{t("ContactInfo.adress")}</p>
+        <p>{t("ContactInfo.address")}</p>
       </div>
 
       <Link

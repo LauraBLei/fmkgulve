@@ -3,16 +3,14 @@ import { FloorPage } from "@/components/pages/floor";
 import { notFound } from "next/navigation";
 
 interface PageProps {
-  params: {
-    slug: string;
-    locale: string;
-  };
+  params: Promise<{ slug: string; locale: string }>; // ✅ Wrapped in Promise
 }
 
-export default function ServicePage({ params }: PageProps) {
+export default async function ServicePage({ params }: PageProps) {
+  const { slug } = await params; // ✅ Await the params
+
   // Find the service by slug
-  const service = SERVICES.find((s) => s.slug === params.slug);
-  console.log(service);
+  const service = SERVICES.find((s) => s.slug === slug);
 
   // If service not found, show 404
   if (!service) {

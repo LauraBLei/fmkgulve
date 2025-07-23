@@ -53,7 +53,7 @@ export const ContactPage = () => {
               <h2 className="contactHeadings">{t("contact")}</h2>
               <div className="py-2 pb-6">
                 <p>{tInfo("company")}</p>
-                <p>{tInfo("adress")}</p>
+                <p>{tInfo("address")}</p>
                 <p>{tInfo("cvr")}</p>
               </div>
               <div className="flex flex-col gap-1">
