@@ -35,7 +35,7 @@ export default async function RootLayout({
   }
   return (
     <html lang="da">
-      <body className="min-h-screen flex flex-col items-center">
+      <body className="min-h-screen flex flex-col items-center ">
         <NextIntlClientProvider>
           <Header />
           <main className="flex-1 pageContainer">{children}</main>
