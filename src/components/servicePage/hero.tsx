@@ -13,7 +13,7 @@ export const HeroSection = ({ service }: FloorCardProps) => {
         className="object-cover"
         quality={100}
       />
-      <h1 className="absolute bottom-0 mb-[-20px]  ml-10 w-[200px] md:w-[400px] text-center text-lg md:text-2xl rounded-md bg-brand-blue shadow-md text-white font-primary py-2">
+      <h1 className="absolute bottom-0 mb-[-20px] ml-5 md:ml-10 w-[200px] md:w-[400px] text-center text-lg md:text-2xl rounded-md bg-brand-blue shadow-md text-white font-primary py-2">
         {t("title")}
       </h1>
     </div>

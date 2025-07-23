@@ -10,7 +10,7 @@ export const ArticleSection = ({ service }: FloorCardProps) => {
   const textsThree = serviceData?.sectionThree?.text || [];
 
   return (
-    <section className="px-5 flex flex-col md:flex-row gap-10">
+    <section className="px-5 flex flex-col lg:flex-row gap-10">
       <div className="flex-1 flex flex-col gap-10">
         <article>
           <h2 className="text-2xl font-bold mb-4 text-brand-blue">
