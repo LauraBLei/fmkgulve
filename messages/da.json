@@ -269,6 +269,7 @@
   "ContactInfo": {
     "phone": "+45 30 13 16 31",
     "email": "kontakt@fmkgulve.dk",
+    "emailMsg": "Send mail",
     "company": "FMK Gulve",
     "adress": "Mørkhøj Bygade 32, 2860 Søborg",
     "cvr": "CVR-nummer: 39399199"
