@@ -7,7 +7,7 @@ export const ContactFormMobile = () => {
   const t = useTranslations("ContactComponent");
   const tInfo = useTranslations("ContactInfo");
   return (
-    <div className="font-secondary">
+    <div className="font-secondary lg:hidden">
       <hr className="border-1 border-brand-blue mb-8" />
       <Image
         src={"/profile/contactForm.png"}
