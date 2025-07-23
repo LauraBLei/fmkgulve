@@ -1,5 +1,6 @@
 export type Service = {
-  id: string;
+  id: number;
+  slug: string;
+  translationKey: string;
   image: string;
-  title: string;
 };

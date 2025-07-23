@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import { ValueProps } from "../valueProps";
 import { HeroSection } from "../home/hero";
+import { ServicesSection } from "../home/services";
 
 export const HomePage = () => {
   const t = useTranslations("HomePage");
@@ -13,7 +14,9 @@ export const HomePage = () => {
       <section className="value">
         <ValueProps />
       </section>
-      <section id="services"></section>
+      <section id="services" className="w-full flex justify-center my-10">
+        <ServicesSection />
+      </section>
       <section id="contact"></section>
     </div>
   );

@@ -4,6 +4,7 @@
   --color-brand-blue: #1c75bc;
   --font-primary: "Lato", "ui-sans-serif", "system-ui";
   --font-secondary: "Inter", "ui-sans-serif", "system-ui";
+  --breakpoint-xs: 550px;
 }
 
 .pageContainer {
