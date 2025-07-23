@@ -10,6 +10,14 @@ html {
   @apply scroll-smooth;
 }
 
+body {
+  background-image: url("/bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 .pageContainer {
   @apply max-w-[1400px] w-full;
 }

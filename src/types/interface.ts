@@ -5,3 +5,24 @@ export interface FloorCardProps {
   width?: string;
   height?: string;
 }
+
+export interface Messages {
+  FloorPage?: {
+    services?: {
+      [key: number]: {
+        sectionOne?: {
+          title: string;
+          text: string[];
+        };
+        sectionTwo?: {
+          title: string;
+          text: string[];
+        };
+        sectionThree?: {
+          title: string;
+          text: string[];
+        };
+      };
+    };
+  };
+}
