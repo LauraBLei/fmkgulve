@@ -1,10 +1,11 @@
+import { FloorCardProps } from "@/types/interface";
 import { useTranslations } from "next-intl";
 
-export const FloorPage = () => {
-  const t = useTranslations("FloorPage");
+export const FloorPage = ({ service }: FloorCardProps) => {
+  const t = useTranslations(service.translationKey);
   return (
     <div>
-      <h1>{t("Title")}</h1>
+      <h1>{t("title")}</h1>
     </div>
   );
 };

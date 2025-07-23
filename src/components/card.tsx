@@ -13,7 +13,7 @@ export const FloorCard = ({
   const t = useTranslations(service.translationKey);
   return (
     <Link
-      href={"/tjenester"}
+      href={`/tjenester/${service.slug}`}
       className={`${width} ${height} w-full h-[250px] relative sm:rounded-[10px] overflow-hidden`}
     >
       <Image
