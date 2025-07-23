@@ -7,7 +7,7 @@ export const ContactFormDesktop = () => {
   const t = useTranslations("ContactComponent");
   const tInfo = useTranslations("ContactInfo");
   return (
-    <div className="relative font-secondary px-14 py-26">
+    <div className="relative font-secondary hidden lg:block px-14 py-26">
       {/* Decorative lines */}
       <div className="absolute top-38 left-0 w-full h-px bg-brand-blue z-0" />
       <div className="absolute bottom-38 left-0 w-full h-px bg-brand-blue z-0" />
