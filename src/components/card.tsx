@@ -1,24 +1,22 @@
 "use client";
 
 import Link from "next/link";
-import { useTranslations } from "next-intl";
 import { FloorCardProps } from "@/types/interface";
 import Image from "next/image";
 
 export const FloorCard = ({ service }: FloorCardProps) => {
-  const t = useTranslations("FloorPage.services");
   return (
     <Link href={"/tjenester"}>
-      <div className="card">
+      <div className="relative">
         <Image
           src={service.image}
-          alt={service.title}
+          alt=""
           width={400}
           height={300}
-          style={{ objectFit: "cover" }}
+          className="w-[162px] h-[195px] object-cover rounded-[10px]"
         />
-        <div>
-          <p>{t(service.title)}</p>
+        <div className="absolute bottom-8 bg-[#1c74bcae] text-white p-1.5 w-[162px] text-center font-semibold text-[13px]">
+          <p>{service.title}</p>
         </div>
       </div>
     </Link>
