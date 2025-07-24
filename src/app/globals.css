@@ -55,7 +55,7 @@ body {
 }
 
 .contactInputMobile {
-  @apply border-1 border-gray-400 py-2 px-3 w-full focus:border-brand-blue outline-none;
+  @apply border-1 py-2 px-3 w-full focus:border-brand-blue outline-none;
 }
 
 .contactInputDesktop {
@@ -64,4 +64,12 @@ body {
 
 .validationError {
   @apply bg-white py-2 px-3 absolute -left-50 top-0 text-red-600 font-medium text-sm rounded-lg shadow-sm;
+}
+
+.validationErrorMobile {
+  @apply absolute -bottom-4 left-2 text-red-600 text-xs font-medium;
+}
+
+.validationFormMsg {
+  @apply absolute text-sm font-medium text-center;
 }
