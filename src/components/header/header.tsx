@@ -4,7 +4,7 @@ import { Sidebar } from "./sidebar";
 
 export const Header = () => {
   return (
-    <header className="bg-white flex place-content-end  shadow-sm  pageContainer font-primary font-medium">
+    <header className=" flex place-content-end  pageContainer font-primary font-medium">
       <DesktopHeader />
       <Sidebar />
     </header>

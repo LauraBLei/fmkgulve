@@ -12,7 +12,7 @@ export const ValueProps = () => {
           {[0, 1, 2].map((index) => (
             <div
               key={index}
-              className={`flex items-start space-x-4 p-6 bg-white border-b-1 border-brand-blue md:border-none  ${
+              className={`flex items-start space-x-4 p-6  border-b-1 border-brand-blue md:border-none  ${
                 index === 2 && "border-none"
               }`}
             >
