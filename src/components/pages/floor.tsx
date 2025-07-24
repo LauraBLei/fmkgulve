@@ -2,8 +2,7 @@ import { FloorCardProps } from "@/types/interface";
 import { useTranslations } from "next-intl";
 import { HeroSection } from "../servicePage/hero";
 import { ArticleSection } from "../servicePage/articles";
-import { ContactFormDesktop } from "../contactDesktop";
-import { ContactFormMobile } from "../contactMobile";
+import { ContactForm } from "../contact/contactForm";
 import { ValueProps } from "../valueProps";
 import { OtherFloorsSection } from "../servicePage/other";
 import { SERVICES } from "@/utility/services";
@@ -33,8 +32,7 @@ export const FloorPage = ({ service }: FloorCardProps) => {
         <OtherFloorsSection list={otherServices} />
       </section>
       <section id="contact">
-        <ContactFormDesktop />
-        <ContactFormMobile />
+        <ContactForm />
       </section>
     </div>
   );

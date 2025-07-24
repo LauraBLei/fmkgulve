@@ -1,7 +1,7 @@
 import { useTranslations } from "next-intl";
 import { Phone, Mail } from "lucide-react";
 import Image from "next/image";
-import { ContactForm } from "../contactForm";
+import { ContactForm } from "../contact/contactForm";
 
 export const ContactPage = () => {
   const t = useTranslations("ContactPage");

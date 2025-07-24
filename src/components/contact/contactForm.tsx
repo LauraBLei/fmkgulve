@@ -7,7 +7,7 @@ import { useForm, SubmitHandler } from "react-hook-form";
 import { handleContactSubmit } from "@/utility/handleContactSubmit";
 import { contactValidationRules } from "@/utility/contactValidation";
 import { ContactFormValues } from "@/types/common";
-import { FormField } from "@/components/FormField";
+import { FormField } from "@/components/contact/FormField";
 import { FeedbackMessage } from "./FeedBackMessage";
 import { ContactFormInfo } from "./ContactFormInfo";
 
