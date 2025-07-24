@@ -47,7 +47,7 @@ export const ContactFormMobile = () => {
           </div>
           <div className="max-w-[200px]">
             <p className="contactIconTitle">{t("locationTitle")}</p>
-            <p>{tInfo("adress")}</p>
+            <p>{tInfo("address")}</p>
           </div>
         </div>
       </div>
