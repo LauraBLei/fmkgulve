@@ -1,12 +1,11 @@
-export const handleContactSubmit = async (form: HTMLFormElement) => {
-  const formData = new FormData(form);
-  const data = {
-    name: formData.get("name"),
-    phone: formData.get("phone"),
-    email: formData.get("email"),
-    message: formData.get("message"),
-  };
+type ContactFormData = {
+  name: string;
+  phone: string;
+  email: string;
+  message: string;
+};
 
+export const handleContactSubmit = async (data: ContactFormData) => {
   const response = await fetch("/api/contact", {
     method: "POST",
     headers: {
