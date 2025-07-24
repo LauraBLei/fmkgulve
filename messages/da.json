@@ -221,6 +221,7 @@
     "title": "Kontakt os",
     "callTitle": "Ring os",
     "emailTitle": "Send besked",
+    "loadingTitle": "Sender...",
     "locationTitle": "Beliggenhed",
     "callText": "Ring og få et godt tilbud",
     "callSubText": "Fortæl os om din opgave, så giver vi et uforpligtende tilbud hurtigst muligt",
