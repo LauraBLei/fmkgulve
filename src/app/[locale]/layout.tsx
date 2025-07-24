@@ -7,6 +7,7 @@ import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { routing } from "@/i18n/routing";
 import { notFound } from "next/navigation";
 import { Footer } from "@/components/footer/footer";
+import { StickyContact } from "@/components/StickyContact";
 
 export const metadata: Metadata = {
   title: "FMKGulve",
@@ -41,6 +42,7 @@ export default async function RootLayout({
           <main className="flex-1 lg:bg-white bg-transparent  pageContainer">
             {children}
           </main>
+          <StickyContact />
           <Footer />
         </NextIntlClientProvider>
       </body>
