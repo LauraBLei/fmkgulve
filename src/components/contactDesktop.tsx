@@ -2,10 +2,23 @@
 import { useTranslations } from "next-intl";
 import { ChevronRight } from "lucide-react";
 import Image from "next/image";
+import { handleContactSubmit } from "@/utility/handleContactSubmit";
 
 export const ContactFormDesktop = () => {
   const t = useTranslations("ContactComponent");
   const tInfo = useTranslations("ContactInfo");
+
+  const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    try {
+      await handleContactSubmit(e.currentTarget);
+      alert("Message sent successfully!");
+    } catch (error) {
+      alert("Failed to send message. Please try again.");
+      console.error(error);
+    }
+  };
+
   return (
     <div className="relative font-secondary hidden lg:block px-14 py-26">
       {/* Decorative lines */}
@@ -31,23 +44,27 @@ export const ContactFormDesktop = () => {
             <p className="text-xs py-1">{t("formularSubText")}</p>
           </div>
         </div>
-        <form className="flex flex-col gap-3 w-full">
+        <form onSubmit={onSubmit} className="flex flex-col gap-3 w-full">
           <input
+            name="name"
             type="text"
             placeholder={t("formPlaceholder.name")}
             className="contactInputDesktop"
           />
           <input
+            name="phone"
             type="text"
             placeholder={t("formPlaceholder.phone")}
             className="contactInputDesktop"
           />
           <input
+            name="email"
             type="email"
             placeholder={t("formPlaceholder.email")}
             className="contactInputDesktop"
           />
           <textarea
+            name="message"
             placeholder={t("formPlaceholder.text")}
             className="contactInputDesktop h-[110px]"
           />
