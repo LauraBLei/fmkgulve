@@ -22,7 +22,11 @@ export default async function ServicePage({ params }: PageProps) {
 
 // Generate static params for all services
 export async function generateStaticParams() {
-  return SERVICES.map((service) => ({
-    slug: service.slug,
-  }));
+  const locales = ["da", "en"];
+  return SERVICES.flatMap((service) =>
+    locales.map((locale) => ({
+      slug: service.slug,
+      locale,
+    }))
+  );
 }
