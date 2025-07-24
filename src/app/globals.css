@@ -59,5 +59,9 @@ body {
 }
 
 .contactInputDesktop {
-  @apply bg-[#EEEEEE] border-1 border-[#E4E3E3] py-2 px-3 w-full rounded-xl focus:border-brand-blue outline-none;
+  @apply bg-[#EEEEEE] border-1 py-2 px-3 w-full rounded-xl focus:border-brand-blue outline-none;
+}
+
+.validationError {
+  @apply bg-white py-2 px-3 absolute -left-50 top-0 text-red-600 font-medium text-sm rounded-lg shadow-sm;
 }
