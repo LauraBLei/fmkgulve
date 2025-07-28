@@ -1,4 +1,6 @@
 import { Menu, X } from "lucide-react";
+import LocaleSwitcher from "../LocaleSwitcher";
+import { useTranslations } from "next-intl";
 
 export const CloseButton = ({ closeSidebar }: { closeSidebar: () => void }) => {
   return (
@@ -22,5 +24,17 @@ export const MenuButton = ({ openSidebar }: { openSidebar: () => void }) => {
     >
       <Menu />
     </button>
+  );
+};
+
+export const LanguageSwitcher = () => {
+  const t = useTranslations();
+  return (
+    <div className="p-6 border-t border-gray-200">
+      <div className="flex items-center justify-between">
+        <span className="sr-only">{t("LocaleSwitcher.label")}:</span>
+        <LocaleSwitcher label={t("LocaleSwitcher.label")} />
+      </div>
+    </div>
   );
 };

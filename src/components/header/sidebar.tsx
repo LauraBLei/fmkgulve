@@ -1,14 +1,12 @@
 "use client";
 import { useRef, useEffect, useState } from "react";
-import { useTranslations } from "next-intl";
-import LocaleSwitcher from "../LocaleSwitcher";
-import { CloseButton, MenuButton } from "./button";
+import { CloseButton, LanguageSwitcher, MenuButton } from "./button";
 import { SideBarNav } from "./sideBarNav";
 import { Logo } from "./logo";
+import { BackDrop } from "./backdrop";
 
 export const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const t = useTranslations();
   const sidebarRef = useRef<HTMLDivElement>(null);
 
   const openSidebar = () => setIsOpen(true);
@@ -54,12 +52,7 @@ export const Sidebar = () => {
       <MenuButton openSidebar={openSidebar} />
 
       {/* Backdrop */}
-      <div
-        className={`fixed inset-0 bg-white/20 transition-opacity z-40 ${
-          isOpen ? "opacity-100" : "opacity-0 pointer-events-none"
-        }`}
-        onClick={closeSidebar}
-      />
+      <BackDrop isOpen closeSidebar={closeSidebar} />
 
       {/* Sidebar */}
       <div
@@ -75,12 +68,7 @@ export const Sidebar = () => {
         <SideBarNav closeSidebar={closeSidebar} />
 
         {/* Language Switcher Footer */}
-        <div className="p-6 border-t border-gray-200">
-          <div className="flex items-center justify-between">
-            <span className="sr-only">{t("LocaleSwitcher.label")}:</span>
-            <LocaleSwitcher label={t("LocaleSwitcher.label")} />
-          </div>
-        </div>
+        <LanguageSwitcher />
       </div>
     </div>
   );
