@@ -1,7 +1,7 @@
 "use client";
 import { useTranslations } from "next-intl";
-import { ChevronRight } from "lucide-react";
 import Image from "next/image";
+import { ContactForm } from "./contact/form";
 
 export const ContactFormDesktop = () => {
   const t = useTranslations("ContactComponent");
@@ -31,34 +31,7 @@ export const ContactFormDesktop = () => {
             <p className="text-xs py-1">{t("formularSubText")}</p>
           </div>
         </div>
-        <form className="flex flex-col gap-3 w-full">
-          <input
-            type="text"
-            placeholder={t("formPlaceholder.name")}
-            className="contactInputDesktop"
-          />
-          <input
-            type="text"
-            placeholder={t("formPlaceholder.phone")}
-            className="contactInputDesktop"
-          />
-          <input
-            type="email"
-            placeholder={t("formPlaceholder.email")}
-            className="contactInputDesktop"
-          />
-          <textarea
-            placeholder={t("formPlaceholder.text")}
-            className="contactInputDesktop h-[110px]"
-          />
-          <button
-            type="submit"
-            className="flex justify-center items-center gap-1 py-2 w-[182px] bg-brand-blue text-white font-semibold rounded-xl cursor-pointer hover:bg-[#1c74bc85] active:text-black active:bg-white active:border-1 active:border-brand-blue transition-all duration-300"
-          >
-            {t("formPlaceholder.submit")}
-            <ChevronRight size={20} strokeWidth={2.5} />
-          </button>
-        </form>
+        <ContactForm />
       </div>
     </div>
   );

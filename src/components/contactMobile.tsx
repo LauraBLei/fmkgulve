@@ -2,6 +2,7 @@
 import { useTranslations } from "next-intl";
 import { Phone, Mail, MapPin } from "lucide-react";
 import Image from "next/image";
+import { ContactForm } from "./contact/form";
 
 export const ContactFormMobile = () => {
   const t = useTranslations("ContactComponent");
@@ -51,33 +52,7 @@ export const ContactFormMobile = () => {
           </div>
         </div>
       </div>
-      <form className="flex flex-col gap-5 text-xs px-4 my-12 max-w-[550px] mx-auto">
-        <input
-          type="text"
-          placeholder={t("formPlaceholder.name")}
-          className="contactInputMobile rounded-full"
-        />
-        <input
-          type="number"
-          placeholder={t("formPlaceholder.phone")}
-          className="contactInputMobile rounded-full"
-        />
-        <input
-          type="email"
-          placeholder={t("formPlaceholder.email")}
-          className="contactInputMobile rounded-full"
-        />
-        <textarea
-          placeholder={t("formPlaceholder.text")}
-          className="contactInputMobile h-[127px] rounded-3xl"
-        />
-        <button
-          type="submit"
-          className="py-2 w-full bg-brand-blue text-white font-semibold rounded-full"
-        >
-          {t("formPlaceholder.submit")}
-        </button>
-      </form>
+      <ContactForm />
     </div>
   );
 };
