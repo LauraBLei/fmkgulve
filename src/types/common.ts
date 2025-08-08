@@ -4,3 +4,10 @@ export type Service = {
   translationKey: string;
   image: string;
 };
+
+export type ContactFormValues = {
+  name: string;
+  phone: string;
+  email: string;
+  message: string;
+};
