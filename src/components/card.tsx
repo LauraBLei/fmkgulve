@@ -14,7 +14,7 @@ export const FloorCard = ({
   return (
     <Link
       href={`/tjenester/${service.slug}`}
-      className={`${width} ${height} w-full h-[250px] relative sm:rounded-[10px] overflow-hidden`}
+      className={`${width} ${height} w-full h-[250px] relative sm:rounded-[10px] overflow-hidden hover:scale-105 transition duration-400 ease-in-out`}
     >
       <Image
         src={service.image}
