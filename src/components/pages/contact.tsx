@@ -1,10 +1,10 @@
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import { ContactFormMobile } from "../contactMobile";
-import { ContactFormDesktop } from "../contactDesktop";
+
 import { InterestedText } from "../contact/interested";
 import { OpeningHours } from "../contact/openingHours";
 import { ContactInformation } from "../contact/contactInfo";
+import { ContactForm } from "../contact/form";
 
 export const ContactPage = () => {
   const t = useTranslations("ContactPage");
@@ -41,8 +41,7 @@ export const ContactPage = () => {
           />
         </div>
       </div>
-      <ContactFormDesktop />
-      <ContactFormMobile />
+      <ContactForm />
     </div>
   );
 };
