@@ -2,8 +2,7 @@ import { useTranslations } from "next-intl";
 import { ValueProps } from "../valueProps";
 import { HeroSection } from "../home/hero";
 import { ServicesSection } from "../home/services";
-import { ContactFormDesktop } from "../contactDesktop";
-import { ContactFormMobile } from "../contactMobile";
+import { ContactForm } from "../contact/contactForm";
 
 export const HomePage = () => {
   const t = useTranslations("HomePage");
@@ -20,8 +19,7 @@ export const HomePage = () => {
         <ServicesSection />
       </section>
       <section id="contact">
-        <ContactFormDesktop />
-        <ContactFormMobile />
+        <ContactForm />
       </section>
     </div>
   );

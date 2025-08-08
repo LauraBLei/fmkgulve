@@ -220,6 +220,7 @@
     "title": "Contact us",
     "callTitle": "Call us",
     "emailTitle": "Send message",
+    "loadingTitle": "Sending...",
     "locationTitle": "Location",
     "callText": "Call and get a good quote",
     "callSubText": "Tell us about your task, and we'll give you a non-binding quote as quickly as possible",
