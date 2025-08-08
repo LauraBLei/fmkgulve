@@ -1,15 +1,12 @@
 "use client";
 import { useRef, useEffect, useState } from "react";
-import { useTranslations } from "next-intl";
-import { NavLink } from "./navLink";
-import { ServiceDropdown } from "./services";
-import LocaleSwitcher from "../LocaleSwitcher";
-import Link from "next/link";
-import Image from "next/image";
+import { CloseButton, LanguageSwitcher, MenuButton } from "./button";
+import { SideBarNav } from "./sideBarNav";
+import { Logo } from "./logo";
+import { BackDrop } from "./backdrop";
 
 export const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const t = useTranslations();
   const sidebarRef = useRef<HTMLDivElement>(null);
 
   const openSidebar = () => setIsOpen(true);
@@ -50,45 +47,12 @@ export const Sidebar = () => {
 
   return (
     <div className=" lg:hidden w-full flex  justify-between py-2 px-2">
-      <Link href="/" onClick={closeSidebar}>
-        <Image
-          src="/logo/logo.png"
-          alt="FMK Gulve"
-          width={240}
-          height={80}
-          className="h-8 w-auto" // Slightly smaller for sidebar
-          priority
-          quality={100}
-          unoptimized
-        />
-      </Link>
+      <Logo closeSidebar={closeSidebar} styling="h-8" />
       {/* Hamburger Button */}
-      <button
-        onClick={openSidebar}
-        className="lg:hidden cursor-pointer p-2 rounded-md hover:bg-brand-blue/20 transition-colors"
-      >
-        <svg
-          className="h-6 w-6"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            d="M4 6h16M4 12h16M4 18h16"
-          />
-        </svg>
-      </button>
+      <MenuButton openSidebar={openSidebar} />
 
       {/* Backdrop */}
-      <div
-        className={`fixed inset-0 bg-white/20 transition-opacity z-40 ${
-          isOpen ? "opacity-100" : "opacity-0 pointer-events-none"
-        }`}
-        onClick={closeSidebar}
-      />
+      <BackDrop isOpen={isOpen} closeSidebar={closeSidebar} />
 
       {/* Sidebar */}
       <div
@@ -98,74 +62,13 @@ export const Sidebar = () => {
         }`}
       >
         {/* Header */}
-        <div className="flex items-center justify-between p-6 ">
-          <h2 className="text-xl font-semibold text-white">Menu</h2>
-          <button
-            onClick={closeSidebar}
-            className="p-2 rounded-md cursor-pointer text-white hover:bg-white/20 transition-colors"
-          >
-            <svg
-              className="h-6 w-6"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M6 18L18 6M6 6l12 12"
-              />
-            </svg>
-          </button>
-        </div>
+        <CloseButton closeSidebar={closeSidebar} />
 
         {/* Navigation */}
-        <nav className="flex-1 py-4 px-2">
-          <div className="space-y-2">
-            {/* Home */}
-            <div>
-              <NavLink
-                href="/"
-                text={t("Header.nav.home")}
-                onClick={closeSidebar}
-              />
-            </div>
-
-            {/* Services Dropdown */}
-            <div>
-              <div className="">
-                <ServiceDropdown />
-              </div>
-            </div>
-
-            {/* About */}
-            <div>
-              <NavLink
-                href="/about"
-                text={t("Header.nav.about")}
-                onClick={closeSidebar}
-              />
-            </div>
-
-            {/* Contact */}
-            <div>
-              <NavLink
-                href="/contact"
-                text={t("Header.nav.contact")}
-                onClick={closeSidebar}
-              />
-            </div>
-          </div>
-        </nav>
+        <SideBarNav closeSidebar={closeSidebar} />
 
         {/* Language Switcher Footer */}
-        <div className="p-6 border-t border-gray-200">
-          <div className="flex items-center justify-between">
-            <span className="sr-only">{t("LocaleSwitcher.label")}:</span>
-            <LocaleSwitcher label={t("LocaleSwitcher.label")} />
-          </div>
-        </div>
+        <LanguageSwitcher />
       </div>
     </div>
   );

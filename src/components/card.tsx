@@ -20,6 +20,7 @@ export const FloorCard = ({
         src={service.image}
         alt={t("title")}
         fill
+        sizes="(max-width: 640px) 100vw, (max-width: 1200px) 50vw, 162px"
         className="object-cover"
       />
       <div className="absolute bottom-8 bg-[#1c74bcae] text-white p-1.5 w-full text-center font-semibold text-[13px]">

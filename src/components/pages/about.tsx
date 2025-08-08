@@ -1,11 +1,17 @@
+<<<<<<< HEAD
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { ContactForm } from "../contact/contactForm";
+=======
+import { ContactFormDesktop } from "../contactDesktop";
+import { ContactFormMobile } from "../contactMobile";
+import { AboutContent } from "../about/content";
+>>>>>>> main
 
 export const AboutPage = () => {
-  const t = useTranslations("AboutPage");
   return (
     <div className="font-secondary">
+<<<<<<< HEAD
       <div className="lg:flex lg:flex-row">
         <Image
           src={"/profile/contactHero.webp"}
@@ -33,6 +39,15 @@ export const AboutPage = () => {
         />
       </div>
       <ContactForm />
+=======
+      <AboutContent />
+      <div className="block lg:hidden">
+        <ContactFormMobile />
+      </div>
+      <div className="hidden lg:block">
+        <ContactFormDesktop />
+      </div>
+>>>>>>> main
     </div>
   );
 };
