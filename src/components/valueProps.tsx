@@ -12,12 +12,12 @@ export const ValueProps = () => {
           {[0, 1, 2].map((index) => (
             <div
               key={index}
-              className={`flex items-start space-x-4 p-6  border-b-1 border-brand-blue md:border-none  ${
+              className={`flex flex-col items-center space-y-2 p-6 border-b-1 border-brand-blue md:border-none ${
                 index === 2 && "border-none"
               }`}
             >
-              <div>
-                <h3 className="text-base  flex gap-2 items-center justify-center lg:text-lg font-semibold text-brand-blue mb-2">
+              <div className="flex flex-col items-center">
+                <h3 className="text-base flex gap-2 items-center justify-center lg:text-lg font-semibold text-brand-blue mb-2">
                   <CheckCircle className="h-6 w-6 text-brand-blue flex-shrink-0 mt-1" />
                   {t(`ValueProps.${index}.title`)}
                 </h3>
