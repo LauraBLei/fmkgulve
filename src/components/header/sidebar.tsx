@@ -52,7 +52,7 @@ export const Sidebar = () => {
       <MenuButton openSidebar={openSidebar} />
 
       {/* Backdrop */}
-      <BackDrop isOpen closeSidebar={closeSidebar} />
+      <BackDrop isOpen={isOpen} closeSidebar={closeSidebar} />
 
       {/* Sidebar */}
       <div
