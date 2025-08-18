@@ -14,7 +14,7 @@ type Props<
   type?: "text" | "email" | "number" | "textarea";
   placeholder: string;
   register: UseFormRegister<TFieldValues>;
-  rules: RegisterOptions<TFieldValues, TName>;
+  rules?: RegisterOptions<TFieldValues, TName>;
   error?: FieldError;
   className?: string;
   isMobile?: boolean;

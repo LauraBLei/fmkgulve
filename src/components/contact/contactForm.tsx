@@ -4,8 +4,6 @@ import { useTranslations } from "next-intl";
 import { ChevronRight } from "lucide-react";
 import Image from "next/image";
 import { useForm, SubmitHandler } from "react-hook-form";
-import { handleContactSubmit } from "@/utility/handleContactSubmit";
-import { contactValidationRules } from "@/utility/contactValidation";
 import { ContactFormValues } from "@/types/common";
 import { FormField } from "@/components/contact/FormField";
 import { FeedbackMessage } from "./FeedBackMessage";
@@ -18,7 +16,6 @@ export const ContactForm = () => {
   const {
     register,
     handleSubmit,
-    formState: { errors },
     reset,
   } = useForm<ContactFormValues>();
 
@@ -32,14 +29,15 @@ export const ContactForm = () => {
     return () => clearTimeout(timer);
   }, [success]);
 
-  const onSubmit: SubmitHandler<ContactFormValues> = async (data) => {
+  const onSubmit: SubmitHandler<ContactFormValues> = async () => {
     setError("");
     setSuccess("");
     setLoading(true);
 
     try {
-      await handleContactSubmit(data);
-      setSuccess("Message sent successfully!");
+      // Demo mode - simulate form submission
+      await new Promise((resolve) => setTimeout(resolve, 1000)); // Simulate network delay
+      setSuccess("📧 Demo: Form would have been sent to company email");
       reset();
     } catch (err) {
       setError("Message failed. Please try again.");
@@ -83,31 +81,23 @@ export const ContactForm = () => {
             <FormField
               name="name"
               register={register}
-              rules={contactValidationRules.name}
-              error={errors.name}
               placeholder={t("formPlaceholder.name")}
             />
             <FormField
               name="phone"
               register={register}
-              rules={contactValidationRules.phone}
-              error={errors.phone}
               placeholder={t("formPlaceholder.phone")}
               type="number"
             />
             <FormField
               name="email"
               register={register}
-              rules={contactValidationRules.email}
-              error={errors.email}
               placeholder={t("formPlaceholder.email")}
               type="email"
             />
             <FormField
               name="message"
               register={register}
-              rules={contactValidationRules.message}
-              error={errors.message}
               placeholder={t("formPlaceholder.text")}
               type="textarea"
             />
@@ -155,16 +145,12 @@ export const ContactForm = () => {
           <FormField
             name="name"
             register={register}
-            rules={contactValidationRules.name}
-            error={errors.name}
             placeholder={t("formPlaceholder.name")}
             isMobile
           />
           <FormField
             name="phone"
             register={register}
-            rules={contactValidationRules.phone}
-            error={errors.phone}
             placeholder={t("formPlaceholder.phone")}
             type="number"
             isMobile
@@ -172,8 +158,6 @@ export const ContactForm = () => {
           <FormField
             name="email"
             register={register}
-            rules={contactValidationRules.email}
-            error={errors.email}
             placeholder={t("formPlaceholder.email")}
             type="email"
             isMobile
@@ -181,8 +165,6 @@ export const ContactForm = () => {
           <FormField
             name="message"
             register={register}
-            rules={contactValidationRules.message}
-            error={errors.message}
             placeholder={t("formPlaceholder.text")}
             type="textarea"
             isMobile
