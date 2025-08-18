@@ -8,6 +8,7 @@ import { routing } from "@/i18n/routing";
 import { notFound } from "next/navigation";
 import { Footer } from "@/components/footer/footer";
 import { StickyContact } from "@/components/StickyContact";
+import { DemoBanner } from "@/components/DemoBanner";
 
 export const metadata: Metadata = {
   title: "FMKGulve",
@@ -38,6 +39,7 @@ export default async function RootLayout({
     <html lang="da">
       <body className="min-h-screen flex flex-col items-center ">
         <NextIntlClientProvider>
+          <DemoBanner />
           <Header />
           <main className="flex-1 lg:bg-white bg-transparent  pageContainer">
             {children}
